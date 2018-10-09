@@ -16,19 +16,19 @@ if (answerOne === 'yes' || answerOne === 'y') {
     console.log('The user got question 1 WRONG!')
 }
 
-var answerTwo = prompt('Do you like winning?').toLowerCase();
+var answerTwo = prompt('Do I like winning?').toLowerCase();
 
 if (answerTwo === 'yes' || answerTwo === 'y') {
     alert('Right! Winner winner chicken dinner!');
     console.log('user got question 2 correct')
 }else{
-    alert('Wrong, start winning!');
+    alert('Wrong, I like winning!');
     console.log('The user got question 2 WRONG!')
 }
-var answerThree = prompt('Are you cool?').toLowerCase();
+var answerThree = prompt('Am I cool?').toLowerCase();
 
 if (answerThree === 'yes' || answerThree === 'y') {
-    alert('Yes! You are  a cool one!');
+    alert('Yes! At least I like to think so');
     console.log('user got question 3 right!')
 }else{
     alert('Wrong');

@@ -12,6 +12,7 @@ h2 {
     font-size: 1.7em;
 }
 h3 {
+    padding: 10px;
     border-bottom: black;
     border-bottom-style: solid;
     border-width: 3px;
@@ -25,9 +26,16 @@ p {
     margin-left: 20px;
 }
 ul {
+    border: 2px solid red;
     list-style-type: disc;
-    background: #3399ff;
     padding: 20px;
+    background: #cce5ff;
+    margin: 5px;
+}
+ol {
+     border: 2px solid red;
+    list-style-type: upper-roman;
+    padding: 30px;
     background: #cce5ff;
     margin: 5px;
 }

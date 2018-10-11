@@ -59,19 +59,27 @@ if (answerFive === 'yes' || answerFive === 'y') {
     console.log('The user got question 5 wrong.');
 }
 
-var i = 0;
-
+var i = 4;
+alert('Time to play a guessing game.')
 do { 
     var answerSix = Number(prompt('Give me a number.'));
-    i ++;
-    if (answerSix === 17) {
-        tally ++;
-        alert('Yes, that is correct.')
-        console.log('The user got question 6 correct')
-        break;
+    i--;
+     if (answerSix === 17) {
+            tally++;
+            alert('Yes, that is correct.')
+            console.log('The user got question 6 correct')
+            break;
+        } if (answerSix < 17){
+            alert('Too low.')
+        } if (answerSix > 17){
+            alert('Too hight')
+        } if (i === 0) {
+            alert('Sorry ' + username + ', You are out of guesses')
+        }  
     }
-}
-while (i < 5);
+
+
+while (i > 0);
 
 var j = 0;
 do {

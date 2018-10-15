@@ -96,4 +96,6 @@ do {
 }
 while (j < 7);
 
+alert(`Jared likes ${answers[0]}, ${answers[1]}, ${answers[2]}, and ${answers[3]}.`);
+
 alert('Good job ' + username + ', you got ' + tally + ' right.');

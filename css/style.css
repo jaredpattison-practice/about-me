@@ -1,7 +1,14 @@
 body {
     background-color: lightblue;
 }
+img {
+    float: right;
+    margin: 0 0 1em 1em;
+}
 
+.clearfix {
+    overflow: auto;
+}
 h1 {
     color: navy;
     text-align: center;
@@ -25,17 +32,30 @@ p {
     margin-right: 150px;
     margin-left: 20px;
 }
-ul {
+/* curious what the best practices are for below, I like having the common border, padding, etc. all together, right now the ol style is overriding the ul, ol, but maybe best to have style in seperate for all? */
+ul, ol {
     border: 2px solid red;
     list-style-type: disc;
-    padding: 20px;
+    padding: 10px 30px;
     background: #cce5ff;
-    margin: 5px;
+    margin: 10px;
+    display: inline-block;
 }
-ol {
-     border: 2px solid red;
+ol{
     list-style-type: upper-roman;
-    padding: 30px;
+}
+table {
+    border: 2px solid red;
+    list-style-type: disc;
     background: #cce5ff;
-    margin: 5px;
+    margin: 10px;
+    clear: left;
+}
+th, td {
+    text-align: left;
+    padding: 5px;
+    border-bottom: 1px solid;
+}
+th {
+    font-weight: 700;
 }
